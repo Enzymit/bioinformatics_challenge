@@ -33,9 +33,10 @@ Let's start!
 
 Now let's start to gather our data. In your repo, there's a DNA sequence of an enzyme that was identified as a potential polyphosphate glucokinase. The sequence is stored in the file `data/sequence.fasta`. Your first task is to find the protein structure that corresponds to this DNA sequence. 
 
+
 {% note %}
 
-**Tip:** You can use the [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) tool to find the protein structure that corresponds to this DNA sequence.
+**Note:** You can use the [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) tool to find the protein structure that corresponds to this DNA sequence.
 
 {% endnote %}
 
