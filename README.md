@@ -67,9 +67,9 @@ You can find more information about this package [here](https://docs.python.org/
 8. Save the results from steps 5-7 in a CSV file called `data/interactions.csv`. The CSV should have the following format:
 
 ```
-RESIDUE_NAME,RESIDUE_NUM,DISTANCE,LIGAND
-ASN,1,3.2,PO4
-LYS,33,2.1,BGC
+RESIDUE_NAME,RESIDUE_NUM,LIGAND
+ASN,1,PO4
+LYS,33,BGC
 ...
 ```
 
@@ -81,4 +81,4 @@ In your answers you may assume you have access to Alphafold and can model the 3D
 2. How would you find polyphosphate kinases of other substrates (e.g. fructose, sucrose, etc.)? What databases would you use? What would be the steps in your pipeline?
 
 
-#Good luck!
+# Good luck!
