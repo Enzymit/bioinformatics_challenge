@@ -64,7 +64,7 @@ You can find more information about this package [here](https://docs.python.org/
 
 7. Repeat the same process (steps 5-6) for finding all residues in the active site. (Hint: find the active site by looking for the residues that are closest to the substrate - glucose which is named "BGC" in the PDB file.
 
-8. Save the results from steps 5-7 in a CSV file called `data/interactions.csv`. The CSV should have the following format:
+8. Save the results from steps 5-7 in a CSV file called `data/interactions.csv`,  The CSV should have the following format:
 
 ```
 RESIDUE_NAME,RESIDUE_NUM,LIGAND
@@ -72,6 +72,9 @@ ASN,1,PO4
 LYS,33,BGC
 ...
 ```
+Sort the entries in an ascending order by residue number.
+
+Use diff to compare your results to the results in the file `data/interactions_enzymit.csv` in the repo. If you get the same results, you've successfully completed the challenge!
 
 ### Part 3: Finding more polyphosphate kinases
 The following questions can be answered conceptually only, without writing code. 
