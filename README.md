@@ -11,7 +11,7 @@ Let's start!
 
 1. First thing's first. Your first task is to clone this repo to your local machine (or the machine that you were provided with). You can do this by running the following command in your terminal:
 
-    ```bash
+    ```
     git clone <repo_url>
     ```
 
@@ -19,23 +19,25 @@ Let's start!
 
 2. Next, you will need to install the dependencies for this project. You can do this by running the following command in your terminal:
 
-    ```bash conda env create -f environment.yml```
+    ``` conda env create -f environment.yml```
 
     This will create a conda environment called `enzymit` with all the dependencies installed. You can activate this environment by running the following command:
 
-    ```bash conda activate enzymit```
+    ``` conda activate enzymit```
 
     You can deactivate this environment by running the following command:
 
-    ```bash conda deactivate```
+    ``` conda deactivate```
 
 ### Part 2: Data Acquisition
 
-Now let's start to gather our data. In your repo, there's a DNA sequence of an enzyme that was identified as a potential polyphosphate glucokinase. The sequence is stored in the file `data/sequence.fasta`. Your first task is to find the protein structure that corresponds to this DNA sequence. 
+Now let's start to gather our data. 
+1. In your repo, there's a DNA sequence of an enzyme that was identified as a potential polyphosphate glucokinase. The sequence is stored in the file `data/sequence.fasta`. Your first task is to find the protein structure that corresponds to this DNA sequence. 
+We'll develop the pipeline programatically using the package [Bioservices](https://github.com/cokelaer/bioservices). This is a python package that will enable us to work with various biological database in one scripted pipeline. You can find its documentation here: [Bioservices-doc](https://bioservices.readthedocs.io/en/main/index.html).
 
-{% note %}
+Let's use the [Blast](https://blast.ncbi.nlm.nih.gov/Blast.cgi) service to find the protein sequence that corresponds to this DNA sequence. You may use the Blast service in BioServices to do this. 
 
-**Tip:** You can use the [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) tool to find the protein structure that corresponds to this DNA sequence.
 
-{% endnote %}
+2. 
+
 
