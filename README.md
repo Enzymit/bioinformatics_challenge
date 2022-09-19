@@ -31,7 +31,6 @@ Let's start!
 
 ### Part 2: Data Acquisition
 
-<<<<<<< HEAD
 Now let's start to gather our data. 
 1. In your repo, there's a DNA sequence of an enzyme that was identified as a potential polyphosphate glucokinase. The sequence is stored in the file `data/sequence.fasta`. Your first task is to find the protein structure that corresponds to this DNA sequence. 
 We'll develop the short pipeline programatically using the package [Bioservices](https://github.com/cokelaer/bioservices) and [Biopython](https://https://biopython.org/) Those are python packages that will enable us to work with various biological databases in one scripted pipeline. 
