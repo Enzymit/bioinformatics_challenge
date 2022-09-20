@@ -1,7 +1,7 @@
 # Welcome to Enzymit's Grand Challenge!
 
 ## Background
-Today you will help us investigate [Polyphosphate Glucokinases](https://en.wikipedia.org/wiki/Polyphosphate%E2%80%94glucose_phosphotransferase). These are enzymes that can catalyze the phosphorylation of glucose with polyphosphates. Most kinases, perform phosphorylation reactions with ATP, which is an expensive co-factor that imposes high costs on phosphorylation reactions in industrial settings. Having the ability to utilize polyphosphates for phosphorylation reactions can dramatically lower costs of many chemical reactions that are currently not cost effective.
+Today you will help us investigate [Polyphosphate Glucokinases](https://en.wikipedia.org/wiki/Polyphosphate%E2%80%94glucose_phosphotransferase). These are enzymes that catalyze the phosphorylation of glucose with polyphosphates. Most kinases perform phosphorylation reactions with ATP, which is an expensive co-factor that imposes high costs on phosphorylation reactions in industrial settings. Having the ability to utilize polyphosphates for phosphorylation reactions can dramatically lower costs of many chemical reactions that are currently not cost effective.
 
 Let's start!
 
@@ -33,7 +33,7 @@ Let's start!
 
 Now let's start to gather our data. 
 1. In your repo, there's a DNA sequence of an enzyme that was identified as a potential polyphosphate glucokinase. The sequence is stored in the file `data/sequence.fasta`. Your first task is to find the protein structure that corresponds to this DNA sequence. 
-We'll develop the short pipeline programatically using the package [Bioservices](https://github.com/cokelaer/bioservices) and [Biopython](https://https://biopython.org/) Those are python packages that will enable us to work with various biological databases in one scripted pipeline. 
+We'll develop a short pipeline programatically using the package [Bioservices](https://github.com/cokelaer/bioservices) and [Biopython](https://https://biopython.org/) Those are python packages that will enable us to work with various biological databases in one scripted pipeline. 
 
 1. Let's use the [Blast](https://blast.ncbi.nlm.nih.gov/Blast.cgi) service to find the protein structure that corresponds to this DNA sequence. You may use the [NCBI](https://bioservices.readthedocs.io/en/main/_modules/bioservices/ncbiblast.html#NCBIblast) service in BioServices to do this. 
 
@@ -50,7 +50,7 @@ PDB:1A0A_B
 PDB:3VGL_A
 ...
 ```
-Choose the first PDB id in the list (without the chain, meaning, without the underscore and the char that comes after it) , as it is the most similar to your DNA sequence.
+Choose the first PDB id in the list (without the chain id, meaning, without the underscore and the characters that follow it) , as it is the most similar to your DNA sequence.
 2. Use the urllib package to download the PDB file directly from RCSB. The URL is of the form: ```https://files.rcsb.org/download/<PDB_ID>.pdb```
 You can find more information about this package [here](https://docs.python.org/3/library/urllib.html).
 
@@ -74,7 +74,7 @@ LYS,33,BGC
 ```
 Sort the entries in an ascending order by residue number.
 
-Use diff to compare your results to the results in the file `data/interactions_enzymit.csv` in the repo. If you get the same results, you've successfully completed the challenge!
+Use diff to compare your results to the results in the file `data/interactions_enzymit.csv` in the repo. If you get an empty output, you've successfully completed the coding part of the challenge!
 
 ### Part 3: Finding more polyphosphate kinases
 The following questions can be answered conceptually only, without writing code. 
