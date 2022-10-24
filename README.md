@@ -7,7 +7,9 @@ Let's start!
 
 ## The Challenge
 
-### Part 1: Initial Setup
+### Part 1: Initial Setup (Linux Machine)
+
+**Note**: If you prefer working with a google colab instance, you can find a boilerplate notebook in [this link](https://colab.research.google.com/drive/1-czCT3czlhkPIPQlf9im-9LqmC5uD9FM?authuser=1). Create a copy of this notebook in your personal drive and continue straight to Part 2
 
 1. First thing's first. Your first task is to clone this repo to your local machine (or the machine that you were provided with). You can do this by running the following command in your terminal:
 
@@ -16,6 +18,8 @@ Let's start!
     ```
 
     where `<repo_url>` is the url of this repo. You can find this url by clicking on the green `Code` button on the top right of this page. You can also download the repo as a zip file by clicking on the `Download ZIP` button.
+
+
 
 2. Next, you will need to install the dependencies for this project. You can do this by running the following command in your terminal:
 
