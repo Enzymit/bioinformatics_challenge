@@ -37,7 +37,7 @@ Let's start!
 
 Now let's start to gather our data. 
 1. In your repo, there's a DNA sequence of an enzyme that was identified as a potential polyphosphate glucokinase. The sequence is stored in the file `data/sequence.fasta`. Your first task is to find the protein structure that corresponds to this DNA sequence. 
-We'll develop a short pipeline programatically using the package [Bioservices](https://github.com/cokelaer/bioservices) and [Biopython](https://https://biopython.org/) Those are python packages that will enable us to work with various biological databases in one scripted pipeline. 
+We'll develop a short pipeline programatically using the package [Bioservices](https://github.com/cokelaer/bioservices) and [Biopython](https://biopython.org/) Those are python packages that will enable us to work with various biological databases in one scripted pipeline. 
 
 1. Let's use the [Blast](https://blast.ncbi.nlm.nih.gov/Blast.cgi) service to find the protein structure that corresponds to this DNA sequence. You may use the [NCBI](https://bioservices.readthedocs.io/en/main/_modules/bioservices/ncbiblast.html#NCBIblast) service in BioServices to do this. 
 
