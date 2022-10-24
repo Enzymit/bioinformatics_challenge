@@ -46,7 +46,7 @@ Several tips:
 - The query may take some time to complete. In order to avoid running it multiple times, you may cache it and skip the Blast phase once you have it.
 - Since the query may take several minutes to run, you will need to query the job status every few seconds in a loop (or use the ```wait``` function of NCBIblast). Use the ```get_status(jobid)``` of the Ncbiblast service to do this. You can find more information about this method [here](https://bioservices.readthedocs.io/en/main/_modules/bioservices/ncbiblast.html#NCBIblast.get_status).
 - Choose ```stype="dna"``` in the run function
-- Once the job reaches the status of FINISHED, you can retrieve the results using the ```get_results(jobid,result_type='ids')``` method of the Ncbiblast service. You can find more information about this method [here](https://bioservices.readthedocs.io/en/main/_modules/bioservices/ncbiblast.html#NCBIblast.get_results).
+- Once the job reaches the status of FINISHED, you can retrieve the results using the ```get_result(jobid,result_type='ids')``` method of the Ncbiblast service. You can find more information about this method [here](https://bioservices.readthedocs.io/en/main/_modules/bioservices/ncbiblast.html#NCBIblast.get_results).
 The results will be a string of PDB ids separated by newline characters:
 ```
 PDB:1A0A_A
